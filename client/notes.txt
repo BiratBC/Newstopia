@@ -1,0 +1,10 @@
+react component cycle
+MOUNTING - Birth of your component 
+UPDATE - Growth of your component
+UNMOUNT- Death of your component
+
+methods :
+render()-> to render HTML component in react -> you cannot modify state inside a render method which is why its called pure method
+componentDidMount () -> mainly for fetching 
+componentDidUpdate() ->runs if any props or state are changed 
+componentWillUnmount() ->just before unmounting a component , clear resources
